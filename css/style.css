@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+}
+.navbar {
+  background-color: #f8f9fa;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c3c7cc;
+}
+
+/* HEADER */
+.logo_euralens {
+  height: 8vh;
+}
+
+.scroll {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scroll1 , .scroll2 , .scroll3 , .scroll4 , .scroll5 {
+  list-style-type: none;
+  padding-left: 1.5vw;
+}
+
+.logo_rs img{
+  height: 5vh;
+  margin-left: 1vw;
+}
+
+.logo_rs {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 15vw;
+}
+
+.logo_langue img{
+  height: 5vh;
+  margin-left: 1vw;
+}
+
+.logo_langue {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Carousel */
+
+#carouselExampleSlidesOnly {
+  height: 85vh;
+  max-height: 85vh;
+  overflow: hidden;
+}
+
+.triangle {
+  position: absolute;
+  margin-top: 75vh;
+  margin-left: 58vw;
+  z-index: 1000;
+}
+/* décoration carousel */
+
+.deco_carousel {
+  background-color: #001988 ;
+  height: 4vh;
+  width: 100%
+}
+
+/* MEGAMORPHOSE ET PROGRAMME */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  margin-bottom: 20px;
+  
+}
+
+#megamorphose{
+  background-color: #b2b9ba;
+  width: 50%;
+  height: 428px;
+}
+
+#programme{
+background-image: url("/img/body/phph.jpg");
+width: 50%;
+height: 428px;
+}
+
+/* UNE */
+
+.contentU {
+display: flex;
+position: relative;
+height: 500px;
+background-image: url("/img/body/phune.jpg");
+margin-bottom: 20px;
+}
+
+.texteU{
+  position: absolute;
+  top: 70px;
+  margin: 250px 40px 60px 40px;
+   width: 65%; 
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 10px 10px 10px 10px;
+}
+
+.popup {
+  margin-left: 650px;
+  font-style: italic;
+}
+
+.encart{
+background-color: #b2b9ba;
+width: 20%;
+position: relative;
+margin: 40px 40px 40px 40px;
+height: 400px;
+
+}
+
+#une {
+ 
+  height: 80px; 
+  width: 70%;
+  margin: 40px 40px 0px 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10vh;
+  font-weight: bold;
+
+
+}
+
+
+/* JE M'IMPLIQUE ET JE SEJOURNE   */
+
+
+
+#implique{
+  background-image: url("/img/body/implique.jpg") ;
+  width: 50%;
+  height: 428px;
+  box-shadow: 3px, 3px, 3px, black;
+
+
+}
+
+
+#sejourne{
+  background-image: url("/img/body/sejourne.jpg");
+  width: 50%;
+  height: 428px;
+
+}
+
+/* BOUTON  */
+
+.impliquer {
+padding: 70px, 50px, 50px 50px;
+}
+
+.projet {
+
+}
+
+
+
+/* Footer */
+
+.nav_foot{
+  position: relative;
+}
+
+.scroll_foot {
+  height: 8vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scroll_foot1 , .scroll_foot2 , .scroll_foot3 , .scroll_foot4 , .scroll_foot5 {
+  list-style-type: none;
+}
+
+.scroll_foot1 , .scroll_foot2 , .scroll_foot3 , .scroll_foot4 {
+border-right: solid 1px black ;
+padding-right: 8vw;
+}
+
